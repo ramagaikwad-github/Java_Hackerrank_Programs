@@ -1,0 +1,14 @@
+notPrime = 0
+totalNum = int(input("How many numbers you want to enter"))
+for x in range(0,totalNum):
+    values = int(input("Enter Number"))
+    if values >= 1:
+        for i in range(2,values):
+            if values % i == 0 and values!=i:
+                notPrime+= 1
+                break
+    else:
+        print("Invalid Number") 
+        notPrime+= 1
+print("Total Non Prime Numbers : ",notPrime)        
+
