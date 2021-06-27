@@ -1,3 +1,5 @@
+"check whether number is non prime or not"
+
 notPrime = 0
 totalNum = int(input("How many numbers you want to enter"))
 for x in range(0,totalNum):
