@@ -23,7 +23,6 @@ The first line contains an integer, T (the number of test cases), and the T
 subsequent lines each contain an integer denoting age the of a Person instance.
 */
 
-
 import java.io.*;
 import java.util.*;
 
